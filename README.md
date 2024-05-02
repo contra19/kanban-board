@@ -27,11 +27,11 @@ Task Board is a simple Kanban-style task management tool designed to help indivi
 - **Persistence:** Tasks are persisted locally using browser storage, ensuring data is retained between sessions.
 
 This page is written with the following technoplogies:
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- J-Query UI and Day.js
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Bootstrap**
+- **J-Query UI and Day.js**
 
 ## Getting Started
 
@@ -47,10 +47,45 @@ No installation is required. This app can be accessed at https://contra19.github
 ## Usage
 
 1. Click on the "Add Task" button to create a new task.
-2. Fill in the task title, due date, and description in the modal window.
+
+<figure>
+  <img src="./assets/images/add-task-button.png" alt="Alt text" height="150">
+  <figcaption>Add Task Button</figcaption>
+</figure>
+
+2. Fill in the task title, due date, and description in the modal window. All fields are ***REQUIRED***
 3. Click "Add Task" to add the task to the board.
-4. Drag and drop tasks between swim lanes to update their status.
-5. Tasks are automatically saved locally, ensuring persistence across sessions.
+
+<figure>
+  <img src="./assets/images/completed-task-form.png" alt="Alt text" height="150">
+  <figcaption>Completed form prior to submission</figcaption>
+</figure>
+
+4. Created tasks are color coded: 
+  
+<figure>
+  <img src="./assets/images/due-future.png" alt="Alt text" height="150">
+  <figcaption><strong>WHITE</strong> = Task due future date</figcaption>
+</figure>
+
+<figure>
+  <img src="./assets/images/due-today.png" alt="Alt text" height="150">
+  <figcaption><strong>YELLOW</strong> = Task due today</figcaption>
+</figure>
+
+<figure>
+  <img src="./assets/images/past-due.png" alt="Alt text" height="150">
+  <figcaption><strong>RED</strong> = Task past due</figcaption>
+</figure>
+
+5. Drag and drop tasks between swim lanes to update their status. **ALL** tasks when moved to the "Done" lane will be colored **GREEN**.
+
+<figure>
+  <img src="./assets/images/tasks-in-lanes.png" alt="Alt text" height="200">
+  <figcaption>Tasks in different lanes. The "Done" task is now <strong>GREEN</strong>.</figcaption>
+</figure>
+
+6. Tasks are automatically saved locally, ensuring persistence across sessions.
 
 ## License
 
