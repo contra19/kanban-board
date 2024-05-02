@@ -49,40 +49,40 @@ No installation is required. This app can be accessed at https://contra19.github
 1. Click on the "Add Task" button to create a new task.
 
   <figure>
-    <img src="./assets/images/add-task-button.png" alt="Alt text" height="150">
     <figcaption>Add Task Button</figcaption>
+    <img src="./assets/images/add-task-button.png" alt="Alt text" height="150">
   </figure>
 
 2. Fill in the task title, due date, and description in the modal window. All fields are ***REQUIRED***
 3. Click "Add Task" to add the task to the board.
 
   <figure>
-    <img src="./assets/images/completed-task-form.png" alt="Alt text" height="150">
     <figcaption>Completed form prior to submission</figcaption>
+    <img src="./assets/images/completed-task-form.png" alt="Alt text" height="200">
   </figure>
 
 4. Created tasks are color coded: 
   
   <figure>
-    <img src="./assets/images/due-future.png" alt="Alt text" height="150">
     <figcaption><strong>WHITE</strong> = Task due future date</figcaption>
+    <img src="./assets/images/due-future.png" alt="Alt text" height="150">
   </figure>
 
   <figure>
-    <img src="./assets/images/due-today.png" alt="Alt text" height="150">
     <figcaption><strong>YELLOW</strong> = Task due today</figcaption>
+    <img src="./assets/images/due-today.png" alt="Alt text" height="150">
   </figure>
 
   <figure>
-    <img src="./assets/images/past-due.png" alt="Alt text" height="150">
     <figcaption><strong>RED</strong> = Task past due</figcaption>
+    <img src="./assets/images/past-due.png" alt="Alt text" height="150">
   </figure>
 
 5. Drag and drop tasks between swim lanes to update their status. **ALL** tasks when moved to the "Done" lane will be colored **GREEN**.
 
   <figure>
-    <img src="./assets/images/tasks-in-lanes.png" alt="Alt text" height="200">
     <figcaption>Tasks in different lanes. The "Done" task is now <strong>GREEN</strong>.</figcaption>
+    <img src="./assets/images/tasks-in-lanes.png" alt="Alt text" height="200">
   </figure>
 
 6. Tasks are automatically saved locally, ensuring persistence across sessions.
