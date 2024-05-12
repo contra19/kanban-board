@@ -26,7 +26,7 @@ Task Board is a simple Kanban-style task management tool designed to help indivi
 - **Task Status:** Visual indicators for task status based on due dates, making it easy to identify urgent tasks.
 - **Persistence:** Tasks are persisted locally using browser storage, ensuring data is retained between sessions.
 
-This page is written with the following technoplogies:
+This page is written with the following technologies:
 - **HTML**
 - **CSS**
 - **JavaScript**
